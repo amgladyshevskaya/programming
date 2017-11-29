@@ -1,3 +1,4 @@
+#Вариант3
 i=0
 word=str(input())
 with open("text.txt","w",encoding="utf-8") as f:
