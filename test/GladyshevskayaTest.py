@@ -1,6 +1,6 @@
 #Вариант2
 #Задание1
-"""
+
 with open("freq.txt", encoding="utf-8") as f:
     lines = f.readlines()
     for line in lines:
@@ -8,9 +8,9 @@ with open("freq.txt", encoding="utf-8") as f:
         if cells[2] == "гл":
             if cells[4] == "перех":
                 print(line)
-"""
+
 #Задание2
-"""
+
 with open("freq.txt", encoding="utf-8") as f:
     lines = f.readlines()
     sum = 0
@@ -21,7 +21,7 @@ with open("freq.txt", encoding="utf-8") as f:
             sum += float(cells[4])
 print()
 print(sum)
-"""
+
 #Задание3
 words = []
 n = 0
