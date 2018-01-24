@@ -123,8 +123,9 @@ def main():
             print(sen4().capitalize(), end=' ')
         else:
             print(sen5().capitalize(), end=' ')
-
-main()
+            
+if __name__ =="__main__":
+    main()
 
 
 
